@@ -1,0 +1,144 @@
+/* ==UserStyle==
+@name           FESB Raspored Catppuccin
+@namespace      github.com/kresimirko/userstyles/styles/catppuccin/fesbrasp
+@homepageURL    https://github.com/kresimirko/userstyles/tree/main/styles/catppuccin/fesbrasp
+@version        2025.10.28
+@updateURL      https://github.com/kresimirko/userstyles/raw/main/styles/catppuccin/fesbrasp/catppuccin.user.css
+@supportURL     https://github.com/kresimirko/userstyles/issues?q=is%3Aopen+is%3Aissue+label%3Afesbrasp
+@description    Soothing pastel theme for FESB Raspored
+@author         Catppuccin, kresimirko
+@license        MIT
+==/UserStyle== */
+
+@-moz-document url-prefix("https://raspored.fesb.unist.hr/raspored/osobni") {
+    .backgroundTableContainer, .glowImage {
+        display: none;
+    }
+
+    body {
+        background-image: none !important;
+        background: #181825;
+    }
+
+    body .omnibar.schedule .background, .mainTile-top, .mainTile-mid, .mainTile-bottomTexture {
+        background: none !important;
+    }
+
+    .mainTile .mainTile-topTexture, .calendarPopup {
+        background: #1e1e2e;
+    }
+
+    .mainMenu, .subMenu, .ui-icon, .recurring-icon, .button.close {
+        filter: invert(1);
+    }
+
+    body .omnibar.schedule .border, body .omnibar.schedule .servicesLinks li.schedule a {
+        background-color: #cba6f7;
+    }
+
+    .mainTile .topStripe {
+        border-top: solid 2px #cba6f7 !important;
+    }
+
+    body .omnibar .servicesLinks li.active a span {
+        color: #1e1e2e;
+    }
+
+    .footer .centralPart .copyright {
+        color: #cdd6f4;
+        text-shadow: none;
+    }
+
+    .menuHighlight, .weekCalendar .grid .period.category-Orange {
+        background-color: #fab387;
+    }
+
+    .weekCalendar .grid thead .highlighted span {
+        color: #fab387;
+    }
+
+    .weekCalendar .event {
+        color: #1e1e2e;
+    }
+
+    .weekCalendar .event.Predavanja, .weekCalendar .event.Seminar, .datepicker .category-Blue {
+        background-color: #89b4fa;
+    }
+
+    .datepicker .category-Blue a, .datepicker .category-Orange a, .datepicker .category-Purple a {
+        color: #1e1e2e !important;
+    }
+
+    .calendarSection .periodsSummaryRoot .period {
+        background-color: #181825;
+        color: #cdd6f4;
+    }
+
+    .ui-datepicker tr.ui-state-active {
+        background-color: #313244 !important;
+    }
+
+    .calendarSection .periodsSummaryRoot .category-Blue {
+        border-color: #89b4fa !important;
+    }
+
+    .weekCalendar .event.Auditorne-vjezbe {
+        background-color: #a6e3a1;
+    }
+
+    .calendarSection .periodsSummaryRoot .category-Orange {
+        border-color: #fab387 !important;
+    }
+
+    .weekCalendar .event.Laboratorijske-vjezbe, .datepicker .category-Orange {
+        background-color: #fab387 !important;
+    }
+
+    .datepicker .category-Purple {
+        background-color: #cba6f7;
+    }
+
+    .calendarSection .periodsSummaryRoot .category-Purple {
+        border-color: #cba6f7 !important;
+    }
+
+    * { /* TODO: don't be so destructive */
+        border-color: #313244 !important;
+    }
+
+    .weekCalendar .grid tbody td.nonWorking {
+        background-color: #181825;
+    }
+
+    .ui-datepicker .ui-datepicker-today a {
+        background-color: #fab38720 !important;
+    }
+
+    .weekCalendar .grid thead .name, .weekCalendar .grid thead .number, .ui-datepicker, .calendarPopup {
+        color: #cdd6f4;
+    }
+
+    .ui-datepicker .ui-state-default {
+        color: #cdd6f4 !important;
+    }
+
+    body .omnibar .servicesLinks li a span, body .omnibar .quickLinks li a span, .calendarSection .eventColorLegend .item, .mainTile .topStripe .appTitle {
+        color: #cdd6f4aa;
+    }
+
+    .ui-datepicker .ui-priority-secondary, .weekCalendar .grid tbody th {
+        color: #6c7086 !important;
+    }
+
+    body .omnibar {
+        background-color: #1e1e2e;
+    }
+
+    body .omnibar .userMenu {
+        background-color: #313244;
+    }
+
+    body .omnibar .userMenu span {
+        color: #cdd6f4 !important;
+    }
+}
