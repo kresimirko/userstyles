@@ -10,7 +10,7 @@
 @license        MIT
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://raspored.fesb.unist.hr/raspored/osobni") {
+@-moz-document url-prefix("https://raspored.fesb.unist.hr") {
     .backgroundTableContainer, .glowImage {
         display: none;
     }
