@@ -1,16 +1,16 @@
 /* ==UserStyle==
-@name           FESB Raspored Catppuccin
+@name           FESB Raspored & Nastava Catppuccin
 @namespace      github.com/kresimirko/userstyles/styles/catppuccin/fesbrasp
 @homepageURL    https://github.com/kresimirko/userstyles/tree/main/styles/catppuccin/fesbrasp
 @version        2025.10.29
 @updateURL      https://github.com/kresimirko/userstyles/raw/main/styles/catppuccin/fesbrasp/catppuccin.user.css
 @supportURL     https://github.com/kresimirko/userstyles/issues?q=is%3Aopen+is%3Aissue+label%3Afesbrasp
-@description    Soothing pastel theme for FESB Raspored
+@description    Soothing pastel theme for FESB Raspored and FESB Nastava
 @author         Catppuccin, kresimirko
 @license        MIT
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://raspored.fesb.unist.hr") {
+@-moz-document url-prefix("https://raspored.fesb.unist.hr"), url-prefix("https://nastava.fesb.unist.hr") {
     * {
         /* https://angel-rs.github.io/css-color-filter-generator/ */
         --filter-color-text: brightness(0) saturate(100%) invert(89%) sepia(69%) saturate(2750%) hue-rotate(178deg) brightness(101%) contrast(91%);
