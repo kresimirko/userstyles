@@ -2,7 +2,7 @@
 @name           FESB Raspored Catppuccin
 @namespace      github.com/kresimirko/userstyles/styles/catppuccin/fesbrasp
 @homepageURL    https://github.com/kresimirko/userstyles/tree/main/styles/catppuccin/fesbrasp
-@version        2025.10.28
+@version        2025.10.29
 @updateURL      https://github.com/kresimirko/userstyles/raw/main/styles/catppuccin/fesbrasp/catppuccin.user.css
 @supportURL     https://github.com/kresimirko/userstyles/issues?q=is%3Aopen+is%3Aissue+label%3Afesbrasp
 @description    Soothing pastel theme for FESB Raspored
@@ -78,7 +78,7 @@
         background-color: #313244 !important;
     }
 
-    .calendarSection .periodsSummaryRoot .category-Blue {
+    .calendarSection .periodsSummaryRoot .category-Blue, .calendarSection .eventColorLegend .item.predavnja {
         border-color: #89b4fa !important;
     }
 
@@ -86,7 +86,15 @@
         background-color: #a6e3a1;
     }
 
-    .calendarSection .periodsSummaryRoot .category-Orange {
+    .calendarSection .eventColorLegend .item.auditorneVjezbe {
+        border-color: #a6e3a1;
+    }
+
+    .calendarSection .eventColorLegend .item.konstrukcijskeVjezbe {
+        border-color: #6c7086;
+    }
+
+    .calendarSection .periodsSummaryRoot .category-Orange, .calendarSection .eventColorLegend .item.laboratorijskeVjezbe {
         border-color: #fab387 !important;
     }
 
@@ -98,12 +106,24 @@
         background-color: #cba6f7;
     }
 
-    .calendarSection .periodsSummaryRoot .category-Purple {
+    .calendarSection .periodsSummaryRoot .category-Purple, .calendarSection .eventColorLegend .item.kolokviji {
         border-color: #cba6f7 !important;
     }
 
-    * { /* TODO: don't be so destructive */
-        border-color: #313244 !important;
+    .calendarSection .eventColorLegend .item.ispiti {
+        border-color: #f5c2e7;
+    }
+
+    .calendarSection .eventColorLegend .item.terenskaNastava {
+        border-color: #f9e2af;
+    }
+
+    .weekCalendar .grid tbody td, .weekCalendar .grid thead th {
+        border-color: #313244;
+    }
+
+    .weekCalendar .grid thead th.highlighted, .weekCalendar .grid tbody td.highlighted {
+        border-right: 2px solid #fab38767;
     }
 
     .weekCalendar .grid tbody td.nonWorking {
